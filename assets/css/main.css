@@ -995,14 +995,7 @@ section {
   position: relative;
   margin: 60px 0 0 60px;
 }
-.about .about-img:before {
-  position: absolute;
-  inset: -60px 0 0 -60px;
-  z-index: -1;
-  content: "";
-  background: url("../img/about-bg.png") top left;
-  background-repeat: no-repeat;
-}
+
 @media (max-width: 575px) {
   .about .about-img {
     margin: 30px 0 0 30px;
@@ -1476,7 +1469,7 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(var(--color-secondary-dark-rgb), 0.8);
+  background: rgba(var(--color-secondary-dark-rgb), 0.6);
 }
 .testimonials .section-header {
   margin-bottom: 40px;
