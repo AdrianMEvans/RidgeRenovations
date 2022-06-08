@@ -123,7 +123,7 @@ section {
   padding: 15px 0;
   background: rgba(var(--color-secondary-rgb), 0.05);
   min-height: 40px;
-  margin-top: 76px;
+  margin-top: 176px;
 }
 .breadcrumbs h2 {
   font-size: 30px;
@@ -2091,6 +2091,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+/* #portfolio-details-bar {
+  padding-top: 100px;
+} */
+
 .portfolio-details {
   padding-top: 40px;
 }
