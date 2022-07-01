@@ -801,7 +801,7 @@ section {
 }
 .hero-fullscreen:before {
   content: "";
-  background: rgba(var(--color-white-rgb), 0.50);
+  background: rgba(var(--color-white-rgb), 0.40);
   position: absolute;
   inset: 0;
 }
@@ -814,7 +814,8 @@ section {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 300;
-  color: rgba(55, 55, 55);
+  /* color: rgba(55, 55, 55); */
+  color: rgba(var(--color-secondary-dark-rgb), 0.9);
   font-family: var(--font-secondary);
 }
 .hero-fullscreen h2 span {
@@ -822,7 +823,8 @@ section {
   font-weight: 500;
 }
 .hero-fullscreen p {
-  color: rgba(55, 55, 55);
+  /* color: rgba(55, 55, 55); */
+  color: rgba(var(--color-secondary-dark-rgb), 0.9);
   margin: 0 0 30px 0;
   font-size: 24px;
   font-weight: 600;
