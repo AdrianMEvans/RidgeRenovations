@@ -37,5 +37,7 @@
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
+  $contact->bcc = array('adrian@rhinolinings.co.za');
+
   echo $contact->send();
 ?>
