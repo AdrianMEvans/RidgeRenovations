@@ -38,6 +38,7 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   // $contact->bcc = array('adrian@rhinolinings.co.za');
+  $contact->recaptcha_secret_key = '6LcizwIhAAAAANWhnqOu6haYcyLt01m7kAX7BmrI';
 
   echo $contact->send();
 ?>
